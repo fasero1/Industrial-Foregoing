@@ -85,3 +85,12 @@ type = "optional"
 versionRange = "[19.11.0,)" #mandatory
 ordering = "NONE"
 side = "CLIENT"
+[[dependencies.industrialforegoing]]
+modId="guideme"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[industrialforegoing.guides]
+main_guide = "assets/industrialforegoing/guides/main_guide/"

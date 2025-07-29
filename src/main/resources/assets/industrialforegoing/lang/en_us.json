@@ -675,5 +675,6 @@
   "tooltip.titanium.facing_handler.simulation": "Hydroponic Simulation Processor",
   "tooltip.titanium.facing_handler.seed": "Simulated Seed",
   "tooltip.industrialforegoing.hydroponic.function_1": "* Use in the Hydroponic Bed to gather Crop Data",
-  "tooltip.industrialforegoing.hydroponic.function_2": "* Use in the Simulated Hydroponic Bed to get drops"
+  "tooltip.industrialforegoing.hydroponic.function_2": "* Use in the Simulated Hydroponic Bed to get drops",
+  "item.industrialforegoing.guide.name": "Industrial Foregoing Guide"
 }

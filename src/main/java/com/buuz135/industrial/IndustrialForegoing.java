@@ -80,6 +80,7 @@ import net.neoforged.neoforge.registries.NewRegistryEvent;
 import net.neoforged.neoforgespi.language.IModInfo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import com.buuz135.industrial.integration.guideme.GuideMEIntegration;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -143,6 +144,13 @@ public class IndustrialForegoing extends ModuleController {
         OWN_MODS_LOADED = ModList.get().getMods().stream()
                 .filter(iModInfo -> iModInfo.getConfig().getConfigElement("authors").orElse("").toString().contains("Buuz135"))
                 .map(IModInfo::getDisplayName).toList();
+
+        if (ModList.get().isLoaded("guideme")) {
+            LOGGER.info("GuideME знайдено, ініціалізуємо інтеграцію...");
+            GuideMEIntegration.init();
+        } else {
+            LOGGER.info("GuideME не знайдено, пропускаємо інтеграцію");
+        }
 
     }
 

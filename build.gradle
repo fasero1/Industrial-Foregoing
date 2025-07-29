@@ -41,6 +41,14 @@ repositories {
             includeGroup "com.enderio"
         }
     }
+    //GuideME
+    maven {
+        name = 'GuideME Snapshots'
+        url = 'https://central.sonatype.com/repository/maven-snapshots/'
+        content {
+            includeModule('org.appliedenergistics', 'guideme')
+        }
+    }
 }
 
 base {
@@ -98,6 +106,7 @@ dependencies {
     implementation "curse.maven:jade-324717:5444008"
     compileOnly "curse.maven:crafttweaker-239197:5606075"
     implementation "vazkii.patchouli:Patchouli:${patchouli_version}"
+    implementation "org.appliedenergistics:guideme:${guideme_version}"
     //runtimeOnly "vazkii.patchouli:Patchouli:${patchouli_version}"
     compileOnly "curse.maven:pneumaticcraft-repressurized-281849:5698172"
     implementation "curse.maven:curios-continuation-1037991:5690713"

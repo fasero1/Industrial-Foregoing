@@ -1,0 +1,30 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "item.industrialforegoing.guide.name"
+    },
+    "tooltip_lines": [
+      {
+        "text": "Complete automation guide for Industrial Foregoing",
+        "color": "gray"
+      },
+      {
+        "text": "Right-click to open guide",
+        "color": "dark_gray"
+      }
+    ],
+    "model": "industrialforegoing:item/guide"
+  },
+  "default_language": "en_us",
+  "custom_colors": {
+    "industrialforegoing:primary": {
+      "dark_mode": "#4CAF50",
+      "light_mode": "#2E7D32"
+    },
+    "industrialforegoing:accent": {
+      "dark_mode": "#FF9800",
+      "light_mode": "#F57C00"
+    }
+  }
+}
