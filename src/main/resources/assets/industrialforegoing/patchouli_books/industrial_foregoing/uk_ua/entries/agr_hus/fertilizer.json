@@ -1,0 +1,19 @@
+{
+  "name": "Добриво",
+  "icon": "industrialforegoing:fertilizer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 15,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Матеріал, що виробляється $(l:agr_hus/sewage_composter)компостером стічних вод$() та може використовуватися як кісткове борошно."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:fertilizer"
+      }
+    }
+  ]
+}

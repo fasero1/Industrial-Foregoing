@@ -1,0 +1,17 @@
+{
+  "name": "Сівалка рослин",
+  "icon": "industrialforegoing:plant_sower",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для $(6)висаджування$() культур та саджанців. $(br2)9 внутрішніх слотів інвентаря $(6)кольорово$() закодовані та відповідають кольоровим позначкам на верхній частині сівалки рослин. Робоча зона над машиною поділена на 9 сегментів, і лише насіння з відповідного слота інвентаря буде висаджене в кожній секції."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:plant_sower"
+    }
+  ]
+}

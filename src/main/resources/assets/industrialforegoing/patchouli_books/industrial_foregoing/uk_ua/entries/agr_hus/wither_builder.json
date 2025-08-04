@@ -1,0 +1,16 @@
+{
+  "name": "Будівничий візера",
+  "icon": "industrialforegoing:wither_builder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для спавну візерів. При забезпеченні енергією, $(6)3 черепами візера$() та $(6)4 блоками піску душ$() повністю побудує структуру спавна візера в робочій зоні."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:wither_builder"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Нескінченний бур",
+  "icon": "industrialforegoing:infinity_drill",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченний бур це інструмент, що дозволяє копати великі площі, чим вищий рівень, тим більша площа."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_drill"
+    }
+  ]
+}

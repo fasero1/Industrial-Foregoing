@@ -1,0 +1,17 @@
+{
+  "name": "Жалюгідний генератор",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Дуже неефективний генератор, що споживає горюче паливо, як вугілля. $(br2)Він настільки неефективний, що навіть коли енергетичний буфер машини повний, він продовжує споживати паливо."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

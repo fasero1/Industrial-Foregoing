@@ -1,0 +1,17 @@
+{
+  "name": "Захоплювач мобів",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "industrialforegoing:tools",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Коли ви $(6)клацаєте ПКМ$() на сутність з захоплювачем у руці, ця сутність переміститься всередину. $(br2)Ви можете відпустити сутність, $(6)клацнувши ПКМ$() по землі"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

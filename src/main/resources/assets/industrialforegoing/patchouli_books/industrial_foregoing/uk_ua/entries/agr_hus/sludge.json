@@ -1,0 +1,20 @@
+
+{
+  "name": "Мул (відро)",
+  "icon": "industrialforegoing:sludge_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Рідина, що виробляється $(l:agr_hus/plant_gatherer)збирачем рослин$() та використовується в $(l:resource_production/sludge_refiner)переробнику мулу$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:sludge_bucket"
+      }
+    }
+  ]
+}

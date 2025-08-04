@@ -1,0 +1,17 @@
+{
+  "name": "Нескінченна пускова установка",
+  "icon": "industrialforegoing:infinity_launcher",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченна пускова установка це інструмент, що дозволяє захоплювати або звільняти сутності з захоплювача мобів на відстані. Обравши режим в інтерфейсі та стріляючи з пускової установки, ви зможете звільняти або захоплювати мобів, використовуючи захоплювач мобів у вашому інвентарі."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_launcher"
+    }
+  ]
+}

@@ -91,6 +91,9 @@ type="required"
 versionRange="[21.1.0,)"
 ordering="NONE"
 side="BOTH"
-
-[industrialforegoing.guides]
-main_guide = "assets/industrialforegoing/guides/main_guide/"
+[[dependencies."${mod_id}"]]
+modId = "emi"
+type = "optional"
+versionRange = "[1.1.0,)"
+ordering = "NONE"
+side = "CLIENT"

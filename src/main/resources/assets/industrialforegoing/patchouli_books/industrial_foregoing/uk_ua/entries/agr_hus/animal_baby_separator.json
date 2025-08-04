@@ -1,0 +1,17 @@
+{
+  "name": "Відділювач дитинчат",
+  "icon": "industrialforegoing:animal_baby_separator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для відділення $(6)дитинчат$() тварин від дорослих тварин. Дитинчата тварин будуть телепортовані в задню частину машини. Ви можете змінити тип мобів, які переміщуються, в інтерфейсі."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_baby_separator"
+    }
+  ]
+}

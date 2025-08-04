@@ -1,0 +1,13 @@
+{
+  "name": "Латекс",
+  "icon": "industrialforegoing:latex_bucket",
+  "category": "industrialforegoing:basics",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ця рідина використовується в $(l:basics/latex_processing_unit)фабриці обробки латексу$() для виготовлення маленької сухої гуми"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Збирач молока та вовни",
+  "icon": "industrialforegoing:animal_rancher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для $(6)стрижки$() овець та $(6)доїння$() корів."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_rancher"
+    }
+  ]
+}

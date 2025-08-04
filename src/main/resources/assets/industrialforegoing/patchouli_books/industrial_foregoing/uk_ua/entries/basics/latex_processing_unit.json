@@ -1,0 +1,17 @@
+{
+  "name": "Фабрика обробки латексу",
+  "icon": "industrialforegoing:latex_processing_unit",
+  "category": "industrialforegoing:basics",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Фабрика обробки латексу використовуватиме $(6)750$()мб $(l:basics/latex)латексу$() та $(6)500$()мб води для виробництва 1 $(l:basics/plastic)шматка гуми$()"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:latex_processing_unit"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Рожевий слиз (відро)",
+  "icon": "industrialforegoing:pink_slime_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 11,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Рідина, що виробляється $(l:agr_hus/mob_slaughter_factory)фабрикою забою мобів$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:pink_slime_bucket"
+      }
+    }
+  ]
+}

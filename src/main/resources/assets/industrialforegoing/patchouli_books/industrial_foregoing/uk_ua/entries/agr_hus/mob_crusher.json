@@ -1,0 +1,17 @@
+{
+  "name": "Дробарка мобів",
+  "icon": "industrialforegoing:mob_crusher",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для $(6)вбивства$() мобів так, ніби це робить гравець, добуваючи предмети та есенцію. Предмети створюються безпосередньо з пулу трофеїв моба. $(br2)Ця машина має альтернативний режим, де замість генерації есенції вона генеруватиме предмети з випадковими рівнями $(6)удачі$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_crusher"
+    }
+  ]
+}

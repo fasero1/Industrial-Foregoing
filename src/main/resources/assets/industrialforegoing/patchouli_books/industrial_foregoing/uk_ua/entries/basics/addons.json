@@ -1,0 +1,33 @@
+{
+  "name": "Покращення",
+  "icon": "industrialforegoing:range_addon_tier_11",
+  "category": "industrialforegoing:basics",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:range_addon_tier_11",
+      "title": "Дальність",
+      "text": "Збільшує дальність машин, що мають робочу зону, не всі машини приймають покращення дальності. Кожен рівень збільшує дальність на 1."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:speed_addon_tier_2",
+      "title": "Швидкість",
+      "text": "Збільшує швидкість просування смуги прогресу кожен тік. $(br2)Рівень 1 -> +1$(br)Рівень 2 -> +2"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:efficiency_addon_tier_2",
+      "title": "Ефективність",
+      "text": "Зменшує кількість тіків, необхідних для завершення операції. $(br2)Рівень 1 -> -10%$(br)Рівень 2 -> -20%"
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:processing_addon_tier_2",
+      "title": "Обробка",
+      "text": "Збільшує кількість операцій, виконаних під час завершення обробки машиною. $(br2)Рівень 1 -> +1 операція $(br)Рівень 2 -> +2 операції"
+    }
+  ]
+}

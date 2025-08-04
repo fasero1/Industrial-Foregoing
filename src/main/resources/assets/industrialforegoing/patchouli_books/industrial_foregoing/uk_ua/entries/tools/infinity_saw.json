@@ -1,0 +1,17 @@
+{
+  "name": "Нескінченна пила",
+  "icon": "industrialforegoing:infinity_saw",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченна пила це інструмент, що дозволяє ефективно рубати дерева, чим вищий рівень, тим більше блоків можна зрубати одночасно. Продовжуйте ламати той самий блок, щоб зрубати великі дерева."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_saw"
+    }
+  ]
+}

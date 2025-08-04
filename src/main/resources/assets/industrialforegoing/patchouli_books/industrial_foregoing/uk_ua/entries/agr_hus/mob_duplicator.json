@@ -1,0 +1,20 @@
+{
+  "name": "Дублікатор мобів",
+  "icon": "industrialforegoing:mob_duplicator",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для спавну мобів. При забезпеченні енергією, $(l:agr_hus/essence)есенцією$() та будь-якою сутністю в $(l:tools/mib)інструменті ув'язнення мобів$() буде спавнити їх навколо себе. $(br2)Буде підраховувати сутності поблизу та зупиниться, якщо їх забагато."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_duplicator"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

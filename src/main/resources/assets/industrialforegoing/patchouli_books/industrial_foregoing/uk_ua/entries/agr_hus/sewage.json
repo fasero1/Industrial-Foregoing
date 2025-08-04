@@ -1,0 +1,19 @@
+{
+  "name": "Стічні води (відро)",
+  "icon": "industrialforegoing:sewage_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 13,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Рідина, що виробляється $(l:agr_hus/sewer)каналізацією$(). Ви не хочете знати про це більше."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:sewage_bucket"
+      }
+    }
+  ]
+}

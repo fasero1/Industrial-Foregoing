@@ -1,5 +1,6 @@
 package com.buuz135.industrial.plugin.emi.recipe;
 
+import com.buuz135.industrial.plugin.emi.category.LatexProcessingEmiCategory;
 import dev.emi.emi.api.neoforge.NeoForgeEmiStack;
 import dev.emi.emi.api.recipe.EmiRecipe;
 import dev.emi.emi.api.recipe.EmiRecipeCategory;
@@ -28,6 +29,8 @@ public abstract class CustomEmiRecipe implements EmiRecipe {
         this.output = output;
     }
 
+
+
     public static List<EmiIngredient> combineIng(List<EmiIngredient>... inputs) {
         return Arrays.stream(inputs).flatMap(Collection::stream).toList();
     }
@@ -37,6 +40,10 @@ public abstract class CustomEmiRecipe implements EmiRecipe {
         result.add(otherInput);
         return result;
     }
+
+
+
+
 
     public static List<EmiStack> combineStack(List<EmiStack>... inputs) {
         return Arrays.stream(inputs).flatMap(Collection::stream).toList();
@@ -48,6 +55,15 @@ public abstract class CustomEmiRecipe implements EmiRecipe {
 
     public static List<EmiIngredient> fromInput(EmiIngredient ingredients) {
         return List.of(ingredients);
+    }
+
+    public static EmiIngredient fromInputSingle(SizedFluidIngredient fluidIngredient) {
+        return EmiIngredient.of(Arrays.stream(fluidIngredient.getFluids())
+                .map(NeoForgeEmiStack::of)
+                .toList());
+    }
+    public static List<EmiIngredient> combineIng(EmiIngredient... inputs) {
+        return Arrays.asList(inputs);
     }
 
     public static List<EmiIngredient> fromInput(FluidStack fluidStack) {

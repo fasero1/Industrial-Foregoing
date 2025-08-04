@@ -1,0 +1,18 @@
+{
+  "type": "industrialforegoing:latex_processing",
+  "latexInput": {
+    "fluid": "industrialforegoing:latex",
+    "amount": 750
+  },
+  "waterInput": {
+    "fluid": "minecraft:water",
+    "amount": 500
+  },
+  "output": {
+    "id": "industrialforegoing:dryrubber",
+    "count": 1
+  },
+  "processingTime": 150,
+  "energyRequired": 800,
+  "defaultRecipe": false
+}

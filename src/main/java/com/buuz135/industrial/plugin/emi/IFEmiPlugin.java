@@ -46,6 +46,7 @@ import java.util.stream.Collectors;
 @EmiEntrypoint
 public class IFEmiPlugin implements EmiPlugin {
 
+    public static final LatexProcessingEmiCategory LATEX_PROCESSING_EMI_CATEGORY = new LatexProcessingEmiCategory();
     public static final DissolutionChamberEmiCategory DISSOLUTION_CHAMBER_EMI_CATEGORY = new DissolutionChamberEmiCategory();
     public static final BioreactorEmiCategory BIOREACTOR_EMI_CATEGORY = new BioreactorEmiCategory();
     public static final FermentationStationEmiCategory FERMENTATION_STATION_EMI_CATEGORY = new FermentationStationEmiCategory();
@@ -123,7 +124,12 @@ public class IFEmiPlugin implements EmiPlugin {
         for (RecipeHolder<?> recipe : manager.getAllRecipesFor((RecipeType<LaserDrillFluidRecipe>) ModuleCore.LASER_DRILL_FLUID_TYPE.get())) {
             registry.addRecipe(new LaserDrillFluidEmiRecipe((RecipeHolder<LaserDrillFluidRecipe>) recipe));
         }
-
+        //LATEX PROCESSING
+        registry.addCategory(LATEX_PROCESSING_EMI_CATEGORY);
+        registry.addWorkstation(LATEX_PROCESSING_EMI_CATEGORY, EmiIngredient.of(Ingredient.of(ModuleCore.LATEX_PROCESSING.getBlock())));
+        for (RecipeHolder<?> recipe : manager.getAllRecipesFor((RecipeType<LatexProcessingRecipe>) ModuleCore.LATEX_PROCESSING_TYPE.get())) {
+            registry.addRecipe(new LatexProcessingEmiRecipe((RecipeHolder<LatexProcessingRecipe>) recipe));
+        }
         //STONEWORK
         registry.addCategory(STONE_WORK_EMI_CATEGORY);
         registry.addWorkstation(STONE_WORK_EMI_CATEGORY, EmiIngredient.of(Ingredient.of(ModuleResourceProduction.MATERIAL_STONEWORK_FACTORY.getBlock())));

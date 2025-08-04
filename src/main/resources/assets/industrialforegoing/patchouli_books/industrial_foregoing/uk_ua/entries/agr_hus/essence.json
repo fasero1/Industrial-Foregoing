@@ -1,0 +1,19 @@
+{
+  "name": "Есенція",
+  "icon": "industrialforegoing:essence_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 7,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Рідка форма досвіду, що виробляється $(l:agr_hus/mob_crusher)дробаркою мобів$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:essence_bucket"
+      }
+    }
+  ]
+}

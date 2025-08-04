@@ -1,0 +1,18 @@
+{
+  "name": "Міцеліальний реактор",
+  "icon": "industrialforegoing:mycelial_reactor",
+  "category": "industrialforegoing:generators",
+  "sortnum": 2,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Використовуючи $(6)міцеліальну мережу$() (підпросторову область, що містить живу вегетативну масу грибка, званого міцелієм), цей реактор може виявляти інші $(6)міцеліальні генератори$() та генерувати величезні кількості FE. $(br2)Для цього потрібно, щоб один екземпляр кожного генератора працював одночасно."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/mycelial_reactor",
+      "text": "$(br2)Можливо, нові технології можуть бути відкриті в майбутньому за допомогою цієї мережі."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Компостер стічних вод",
+  "icon": "industrialforegoing:sewage_composter",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 14,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "При забезпеченні $(l:agr_hus/sewage)стічними водами$() ця машина створюватиме з них $(l:agr_hus/fertilizer)добриво$()."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewage_composter"
+    }
+  ]
+}

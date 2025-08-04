@@ -1,0 +1,18 @@
+{
+  "name": "Нескінченний молот",
+  "icon": "industrialforegoing:infinity_hammer",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченний молот це інструмент, що дозволяє наносити шкоду ворогам в площі. Підвищення рівня надасть вам доступ до різних рівнів $(6)обезголовлення$(), дозволяючи легко отримувати голови мобів."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_hammer",
+      "text": "$(br2)При правому кліку на землю створить ефект $(6)розколу$() в землі у формі конуса перед користувачем."
+    }
+  ]
+}

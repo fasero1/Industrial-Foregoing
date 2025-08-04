@@ -623,6 +623,7 @@
   "emi.category.industrialforegoing.laser_drill_ore": "Ore Laser Drill",
   "emi.category.industrialforegoing.stone_work": "Stonework Recipes",
   "emi.category.industrialforegoing.stone_work_generator": "Stonework Generation",
+  "emi.category.industrialforegoing.latex_processing": "Latex processing",
   "text.industrialforegoing.button.show_particles": "Show Position Particles",
   "text.industrialforegoing.button.hide_particles": "Hide Position Particles",
   "text.industrialforegoing.display.moving_babies": "Moving babies",
@@ -676,5 +677,10 @@
   "tooltip.titanium.facing_handler.seed": "Simulated Seed",
   "tooltip.industrialforegoing.hydroponic.function_1": "* Use in the Hydroponic Bed to gather Crop Data",
   "tooltip.industrialforegoing.hydroponic.function_2": "* Use in the Simulated Hydroponic Bed to get drops",
-  "item.industrialforegoing.guide.name": "Industrial Foregoing Guide"
+  "item.industrialforegoing.guide.name": "Industrial Foregoing Guide",
+  "jei.category.latex_processing": "Latex Processing",
+  "text.industrialforegoing.jei.recipe.processing": "Processing:",
+  "text.industrialforegoing.jei.recipe.ticks": " ticks",
+  "text.industrialforegoing.jei.recipe.efficiency": "Efficient Recipe",
+  "text.industrialforegoing.jei.recipe.latex_processing_info": "Converts latex and water into dry rubber using heat and pressure"
 }

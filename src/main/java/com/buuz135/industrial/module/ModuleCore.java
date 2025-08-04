@@ -120,6 +120,8 @@ public class ModuleCore implements IModule {
     public static DeferredHolder<RecipeType<?>, RecipeType<?>> STONEWORK_GENERATE_TYPE;
     public static DeferredHolder<RecipeSerializer<?>, RecipeSerializer<?>> CRUSHER_SERIALIZER;
     public static DeferredHolder<RecipeType<?>, RecipeType<?>> CRUSHER_TYPE;
+    public static DeferredHolder<RecipeSerializer<?>, RecipeSerializer<?>> LATEX_PROCESSING_SERIALIZER;
+    public static DeferredHolder<RecipeType<?>, RecipeType<?>> LATEX_PROCESSING_TYPE;
 
     public static DeferredHolder<Block, Block> PINK_SLIME_BLOCK;
 
@@ -206,6 +208,8 @@ public class ModuleCore implements IModule {
         STONEWORK_GENERATE_TYPE = helper.registerGeneric(Registries.RECIPE_TYPE, "stonework_generate", () -> RecipeType.simple(ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "stonework_generate")));
         CRUSHER_SERIALIZER = helper.registerGeneric(Registries.RECIPE_SERIALIZER, "crusher", () -> new CodecRecipeSerializer<>(CrusherRecipe.class, CRUSHER_TYPE, CrusherRecipe.CODEC));
         CRUSHER_TYPE = helper.registerGeneric(Registries.RECIPE_TYPE, "crusher", () -> RecipeType.simple(ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "crusher")));
+        LATEX_PROCESSING_SERIALIZER = helper.registerGeneric(Registries.RECIPE_SERIALIZER, "latex_processing", () -> new CodecRecipeSerializer<>(LatexProcessingRecipe.class, LATEX_PROCESSING_TYPE, LatexProcessingRecipe.CODEC));
+        LATEX_PROCESSING_TYPE = helper.registerGeneric(Registries.RECIPE_TYPE, "latex_processing", () -> RecipeType.simple(ResourceLocation.fromNamespaceAndPath(Reference.MOD_ID, "latex_processing")));
 
         PINK_SLIME_BLOCK = helper.registerBlockWithItem("pink_slime_block", () -> new PinkSlimeBlock(BlockBehaviour.Properties.of().mapColor(MapColor.GRASS).friction(0.8F).sound(SoundType.SLIME_BLOCK).noOcclusion()), (block) -> () -> new BlockItem(block.get(), new Item.Properties()), ModuleCore.TAB_CORE);
     }

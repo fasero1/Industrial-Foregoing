@@ -1,0 +1,19 @@
+{
+  "name": "М'ясо (відро)",
+  "icon": "industrialforegoing:meat_bucket",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 10,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Рідина, що виробляється $(l:agr_hus/mob_slaughter_factory)фабрикою забою мобів$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:meat_bucket"
+      }
+    }
+  ]
+}

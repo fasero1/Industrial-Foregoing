@@ -1,0 +1,17 @@
+{
+  "name": "Генератор біопалива",
+  "icon": "industrialforegoing:biofuel_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Генератор, що використовує $(l:generators/biofuel)біопаливо$() для генерації $(6)160$()RF/t. $(br2)Цей генератор ефективний, тому він припинить споживати паливо, коли внутрішній буфер заповниться."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:biofuel_generator"
+    }
+  ]
+}

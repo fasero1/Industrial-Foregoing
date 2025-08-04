@@ -1,0 +1,18 @@
+
+{
+  "name": "Годівничка для тварин",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для $(6)годування$() тварин, щоб вони могли народжувати дитинчат, коли машина забезпечена предметом для годування тварин."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

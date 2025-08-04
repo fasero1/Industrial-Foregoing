@@ -1,0 +1,17 @@
+{
+  "name": "Фабрика крафту",
+  "icon": "industrialforegoing:dissolution_chamber",
+  "category": "industrialforegoing:basics",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Потужна машина, що використовується для крафту матеріалів з використанням до $(6)8$() предметів та/або $(6)1$() рідини. $(br2)Всі рецепти безформні, що означає, що інгредієнти можуть бути розміщені в будь-якому слоті."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:dissolution_chamber"
+    }
+  ]
+}

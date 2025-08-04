@@ -1,0 +1,17 @@
+{
+  "name": "Нескінченна ядерна зброя",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченна ядерна зброя це інструмент масового знищення, де радіус вибуху збільшується залежно від рівня та кількості біопалива в ній. Ядерна зброя не знищуватиме речі в приватних чанках. $(br2)Щоб вона вибухнула, потрібно розмістити її на землі, клацнути правою кнопкою для озброєння та клацнути правою кнопкою з вогнивом і кременем, щоб вона вибухнула."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_nuke"
+    }
+  ]
+}

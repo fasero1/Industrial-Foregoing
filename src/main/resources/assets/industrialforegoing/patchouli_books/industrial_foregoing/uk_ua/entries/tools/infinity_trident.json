@@ -1,0 +1,17 @@
+{
+  "name": "Нескінченний тризуб",
+  "icon": "industrialforegoing:infinity_trident",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Нескінченний тризуб це інструмент, що дозволяє розкрити справжню силу тризуба. Підвищення рівня надасть вам доступ до різних рівнів $(6)вірності$(), $(6)течії$() та $(6)провідності$(). $(br2)Провідність та шкода від удару будуть застосовані по площі."
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_trident"
+    }
+  ]
+}

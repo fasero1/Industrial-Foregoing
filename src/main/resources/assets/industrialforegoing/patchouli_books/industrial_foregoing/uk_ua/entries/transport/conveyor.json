@@ -1,0 +1,27 @@
+{
+  "name": "Конвеєри",
+  "icon": "industrialforegoing:conveyor",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Конвеєри можуть використовуватися для транспортування предметів, сутностей та рідин. Вони можуть взаємодіяти зі світом за допомогою $(l:conveyor_upgrades)покращень$(). Предмети та сутності можуть рухатися вгору і вниз по конвеєрах, але рідини можуть рухатися лише горизонтально. $(br2)Конвеєри можна фарбувати, клацнувши ПКМ на них з барвником."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:conveyor"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:glowstone_dust",
+      "text": "Використання світлокам'яного пилу може змусити конвеєри переміщувати предмети та сутності дуже швидко."
+    },
+    {
+      "type": "spotlight",
+      "item": "industrialforegoing:plastic",
+      "text": "Використання пластику запобігатиме підбиранню предметів, коли вони знаходяться на конвеєрі."
+    }
+  ]
+}

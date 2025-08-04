@@ -1,0 +1,17 @@
+{
+  "name": "Каналізація",
+  "icon": "industrialforegoing:sewer",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 12,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Машина, що використовується для збирання $(l:agr_hus/sewage)стічних вод$() від тварин та досвіду для перетворення їх в есенцію."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:sewer"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Гідропонна грядка",
+  "icon": "industrialforegoing:hydroponic_bed",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 16,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Ця машина в поєднанні з енергією та $(6)водою$() (або $(6)лавою$() для пекельних культур) трохи прискорить ріст культур. $(br2)Забезпечивши малою кількостю $(l:resource_production/ether_gas)етерного газу$(), культури ростимуть набагато швидше та будуть автоматично пересаджуватися."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:hydroponic_bed"
+    }
+  ]
+}

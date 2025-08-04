@@ -1,0 +1,19 @@
+{
+  "name": "Біопаливо",
+  "icon": "industrialforegoing:biofuel_bucket",
+  "category": "industrialforegoing:generators",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Фіолетова рідина, виготовлена з рослин, барвників та деяких сумнівних речей, як черепи, в $(l:generators/bioreactor)біореакторі$(). $(br2)Використовується в $(l:generators/biofuel_generator)генераторі біопалива$() або в $(l:tools/infinity_tools)нескінченних інструментах$()."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "industrialforegoing:biofuel_bucket"
+      }
+    }
+  ]
+}

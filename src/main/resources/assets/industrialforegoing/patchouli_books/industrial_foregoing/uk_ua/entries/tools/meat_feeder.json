@@ -1,0 +1,17 @@
+{
+  "name": "М'ясна годівничка",
+  "icon": "industrialforegoing:meat_feeder",
+  "category": "industrialforegoing:tools",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Коли в вашому інвентарі, м'ясна годівничка годуватиме вас рідким м'ясом, що зберігається всередині інструмента."
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:meat_feeder"
+    }
+  ]
+}
